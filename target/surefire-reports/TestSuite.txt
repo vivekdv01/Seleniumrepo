@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 3.282 s <<< FAILURE! - in TestSuite
+beforeTest(example.NewTest)  Time elapsed: 3.015 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Unknown error
+Command duration or timeout: 954 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Egipad061', ip: '172.16.70.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+	at example.NewTest.beforeTest(NewTest.java:15)
+
